@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
                 ('status', models.CharField(default=b'created', max_length=32, choices=[(b'created', b'created'), (b'processing', b'processing'), (b'error', b'error'), (b'complete', b'complete')])),
                 ('date_created', models.DateTimeField(auto_now_add=True)),
                 ('uid', kpi.fields.KpiUidField(uid_prefix=b'e')),
-                ('last_submission_timestamp', models.DateTimeField(null=True)),
+                ('last_submission_time', models.DateTimeField(null=True)),
                 ('result', models.FileField(max_length=380, upload_to=kpi.models.import_export_task.export_upload_to)),
                 ('user', models.ForeignKey(to=settings.AUTH_USER_MODEL)),
             ],

@@ -16,7 +16,7 @@ from rest_framework import exceptions, status
 from rest_framework.authtoken.models import Token
 
 from base_backend import BaseDeploymentBackend
-from .kc_access.utils import instance_count
+from .kc_access.utils import instance_count, last_submission_time
 
 
 class KobocatDeploymentException(exceptions.APIException):
@@ -400,3 +400,9 @@ class KobocatDeploymentBackend(BaseDeploymentBackend):
         return instance_count(xform_id_string=id_string,
                               user_id=self.asset.owner.pk,
                               )
+
+    def _last_submission_time(self):
+        _deployment_data = self.asset._deployment_data
+        id_string = _deployment_data['backend_response']['id_string']
+        return last_submission_time(
+            xform_id_string=id_string, user_id=self.asset.owner.pk)
