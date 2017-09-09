@@ -181,9 +181,6 @@ class Drawer extends Reflux.Component {
               <i className="k-icon k-icon-globe" />
             </a>
           }
-          <a href='https://github.com/kobotoolbox/' className='k-drawer__link' target="_blank" data-tip={t('source')}>
-            <i className="k-icon k-icon-github" />
-          </a>
           { stores.session.currentAccount &&
             <a href={supportUrl()} className='k-drawer__link' target="_blank" data-tip={t('help')}>
               <i className="k-icon k-icon-help" />
