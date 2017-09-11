@@ -471,7 +471,7 @@ export default assign({
               { showAllAvailable ?
                 <bem.FormBuilderHeader__button m={['show-all', {
                       open: showAllOpen,
-                    }]} 
+                    }]}
                     onClick={this.showAll}
                     data-tip={t('Expand / collapse questions')}>
                   <i className="k-icon-view-all" />
@@ -485,7 +485,7 @@ export default assign({
                 <i className="k-icon-group" />
               </bem.FormBuilderHeader__button>
               <bem.FormBuilderHeader__button m={['download']}
-                  data-tip={t('Download form')} 
+                  data-tip={t('Download form')}
                   className="is-edge">
                 <i className="k-icon-download" />
               </bem.FormBuilderHeader__button>
@@ -495,7 +495,7 @@ export default assign({
                   <bem.FormBuilderHeader__button m={{
                     formstyle: true,
                     formstyleactive: this.state.formStylePanelDisplayed,
-                  }} onClick={this.openFormStylePanel} 
+                  }} onClick={this.openFormStylePanel}
                     data-tip={t('Web form layout')} >
                     <i className="k-icon-grid" />
                     <span>{t('Layout')}</span>
@@ -593,7 +593,7 @@ export default assign({
         <bem.Loading>
           <bem.Loading__inner>
             <i />
-            {t('loading...')} 
+            {t('loading...')}
           </bem.Loading__inner>
         </bem.Loading>
       );
@@ -687,7 +687,7 @@ export default assign({
     var isSurvey = this.app && this.state.backRoute === '/forms';
     var docTitle = this.state.name || t('Untitled');
     return (
-        <DocumentTitle title={`${docTitle} | KoboToolbox`}>
+        <DocumentTitle title={`${docTitle} | Research Bunny`}>
           <ui.Panel m={'transparent'}>
             <AssetNavigator />
             <bem.FormBuilder m={this.state.formStylePanelDisplayed ? 'formStyleDisplayed': null }>
