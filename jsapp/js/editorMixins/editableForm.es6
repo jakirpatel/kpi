@@ -687,7 +687,7 @@ export default assign({
     var isSurvey = this.app && this.state.backRoute === '/forms';
     var docTitle = this.state.name || t('Untitled');
     return (
-        <DocumentTitle title={`${docTitle} | Research Bunny`}>
+        <DocumentTitle title={`${docTitle} | KoboToolbox`}>
           <ui.Panel m={'transparent'}>
             <AssetNavigator />
             <bem.FormBuilder m={this.state.formStylePanelDisplayed ? 'formStyleDisplayed': null }>
