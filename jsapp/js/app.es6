@@ -96,7 +96,7 @@ class App extends React.Component {
   render() {
     var assetid = this.props.params.assetid || null;
     return (
-      <DocumentTitle title="KoBoToolbox">
+      <DocumentTitle title="Research Bunny">
         <div className="mdl-wrapper">
           { !this.isFormBuilder() && !this.state.pageState.headerHidden && 
             <div className="k-header__bar"></div>
