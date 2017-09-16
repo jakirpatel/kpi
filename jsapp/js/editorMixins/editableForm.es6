@@ -40,7 +40,7 @@ var ErrorMessage = bem.create('error-message'),
     ErrorMessage__strong = bem.create('error-message__header', '<strong>'),
     ErrorMessage__link = bem.create('error-message__link', '<a>');
 
-var webformStylesSupportUrl = "http://support.kobotoolbox.org/customer/en/portal/articles/2108533";
+var webformStylesSupportUrl = "http://support.Research Bunny.org/customer/en/portal/articles/2108533";
 
 class FormSettingsEditor extends React.Component {
   constructor(props) {
@@ -687,7 +687,7 @@ export default assign({
     var isSurvey = this.app && this.state.backRoute === '/forms';
     var docTitle = this.state.name || t('Untitled');
     return (
-        <DocumentTitle title={`${docTitle} | KoboToolbox`}>
+        <DocumentTitle title={`${docTitle} | Research Bunny`}>
           <ui.Panel m={'transparent'}>
             <AssetNavigator />
             <bem.FormBuilder m={this.state.formStylePanelDisplayed ? 'formStyleDisplayed': null }>
