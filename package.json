@@ -1,7 +1,7 @@
 {
   "name": "kpi",
   "version": "0.1.1",
-  "description": "Research Bunny api dashboard",
+  "description": "Research Buddy api dashboard",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {

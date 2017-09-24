@@ -82,7 +82,7 @@ test= t("Mandatory response");
 test= t("Appearance (advanced)");
 test= t("Show all questions in this group on the same screen");
 test= t("Please check your connection and try again.");
-test= t("The server encountered an error while trying to deploy the project. If this problem persists, please contact <a href=\"mailto:support@researchbunny.org\">support@researchbunny.org</a>.");
+test= t("The server encountered an error while trying to deploy the project. If this problem persists, please contact <a href=\"mailto:support@researchBuddy.org\">support@researchBuddy.org</a>.");
 test= t("The form id was not valid.");
 test= t("failed to change password");
 test= t("Tags are loading...");

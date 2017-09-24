@@ -141,8 +141,8 @@ export function t(str) {
 // these values may appear in transifex (esp. email) and need to
 // be replaced in all the translations before removing this hard
 // coded value.
-const originalSupportEmail = 'support@researchbunny.org';
-const originalSupportUrl = 'http://help.researchbunny.org';
+const originalSupportEmail = 'support@researchBuddy.org';
+const originalSupportUrl = 'http://help.researchBuddy.org';
 
 let supportDetails = {
   url: originalSupportUrl,

@@ -151,7 +151,7 @@ export class AccountSettings extends React.Component {
     };
 
     return (
-      <DocumentTitle title={`${accountName} | Research Bunny`}>
+      <DocumentTitle title={`${accountName} | Research Buddy`}>
       <ui.Panel>
         <bem.AccountSettings>
           <bem.AccountSettings__item m={'column'}>

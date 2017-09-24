@@ -306,7 +306,7 @@ export class ProjectDownloads extends React.Component {
     var docTitle = this.props.asset.name || t('Untitled');
 
     return (
-      <DocumentTitle title={`${docTitle} | Research Bunny`}>
+      <DocumentTitle title={`${docTitle} | Research Buddy`}>
       <bem.FormView__cell>
         <bem.FormModal__form onSubmit={this.handleSubmit}>
           {[

@@ -196,7 +196,7 @@ class SearchCollectionList extends Reflux.Component {
       docTitle = t('Library');
     }
     return (
-      <DocumentTitle title={`${docTitle} | Research Bunny`}>
+      <DocumentTitle title={`${docTitle} | Research Buddy`}>
         <bem.List m={display} onScroll={this.handleScroll}>
           {
             (()=>{
